@@ -1,0 +1,21 @@
+{
+  "name": "swift-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/hello.js",
+    "build": "swiftc -target wasm32-unknown-wasi ./src/hello.swift -o ./lib/hello.wasm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wflixu/swift-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wflixu/swift-css/issues"
+  },
+  "homepage": "https://github.com/wflixu/swift-css#readme"
+}
